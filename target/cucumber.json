@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user cannot loggin another window",
+        "description": "",
+        "id": "this-is-a-login-feature;verify-user-cannot-loggin-another-window",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2604071600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open \u003c\"URL\"\u003e mai",
+            "match": {
+              "arguments": [
+                {
+                  "val": "URL",
+                  "offset": 7
+                }
+              ],
+              "location": "Main_Login.open_mai(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 503862200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click mai paychex login link",
+            "match": {
+              "location": "Main_Login.click_mai_paychex_login_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10090804000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "goto next come back to first window",
+            "match": {
+              "location": "Main_Login.goto_next_come_back_to_first_window()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@tag"
+          }
+        ]
+      }
+    ],
+    "name": "This is a login feature",
+    "description": "",
+    "id": "this-is-a-login-feature",
+    "keyword": "Feature",
+    "uri": "Main_Login.feature"
+  }
+]
